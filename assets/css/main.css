@@ -1,12 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1753,7 +1747,9 @@
 		h3 {
 			font-size: 1.25em;
 		}
-
+		p{
+			font-size: 8px;
+		}
 	}
 
 	sub {
@@ -3145,7 +3141,7 @@
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
-		height: 3.25em;
+		height: 4.25em;
 		left: 0;
 		letter-spacing: 0.25em;
 		line-height: 3.25em;
@@ -3227,7 +3223,7 @@
 						background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 2px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E");
 						background-position: center;
 						background-repeat: no-repeat;
-						background-size: 24px 32px;
+						background-size: 24px 62px;
 						content: '';
 						display: block;
 						height: 100%;
@@ -3317,6 +3313,7 @@
 
 			#header nav a[href="#menu"] {
 				padding-right: 3.75em !important;
+				height: 4.25em;
 			}
 
 				#header nav a[href="#menu"]:last-child {
@@ -3329,6 +3326,7 @@
 
 			#header nav a[href="#menu"] {
 				padding-right: 4em !important;
+				height: 4.25em;
 			}
 
 				#header nav a[href="#menu"]:last-child {
@@ -3340,7 +3338,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.75em;
+				height: 4.25em;
 				line-height: 2.75em;
 			}
 
@@ -3375,6 +3373,10 @@
 		}
 
 		@media screen and (max-width: 480px) {
+
+			#header {
+				height: 3.25em;
+			}
 
 			#header .logo span {
 				display: none;
@@ -3837,7 +3839,7 @@
 		left: 0;
 		opacity: 0;
 		overflow: hidden;
-		padding: 3em 2em;
+		/*padding: 1em 2em;*/
 		position: fixed;
 		top: 0;
 		visibility: hidden;
@@ -3985,4 +3987,36 @@
 			transform: none;
 			opacity: 1;
 			visibility: visible;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.p {
+				font-size: 16px;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.p {
+				font-size: 14px;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.p {
+				font-size: 10px;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.p {
+				font-size: 3px;
+			}
+
 		}
